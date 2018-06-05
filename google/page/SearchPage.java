@@ -29,7 +29,6 @@ public class SearchPage extends AbstractPage {
 	public void search(String word) {
 		inputWord.sendKeys(word);
 		inputWord.submit();
-		logger.info("Login performed");
 	}
 
 	public String getWordOfSearch() {
